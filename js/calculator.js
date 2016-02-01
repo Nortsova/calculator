@@ -20,8 +20,6 @@ function split(num1, num2) {
 	return num1 / num2;
 }
 
-// 
-
 function calc(value) {
 	if(value.indexOf('+') !== -1) {
 		var string = value.split("+");
